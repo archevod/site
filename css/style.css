@@ -1,11 +1,29 @@
-header {
+body {
+    height: 100%;
+    background-color: #333;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
     text-align: center;
     color: #fff;
     background-color: #666;
-    padding: 10px 0 10px 0;
+    padding: 3px 0 3px 0;
 }
 
-video {
-    width: 640px;
-    height: 480px;
+.main {
+    flex: 1 1 auto;
+    text-align: center;
+    min-height: 100%;
+}
+
+.footer {
+    text-align: center;
+    color: #fff;
+    background-color: #77608d;
+    padding: 5px 0 5px 0;
 }
